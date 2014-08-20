@@ -7,6 +7,7 @@
 //
 
 #import "STAppDelegate.h"
+#import "STPhotosViewController.h"
 
 @implementation STAppDelegate
 
@@ -14,6 +15,17 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+  
+    // nest photos view controller in navigation controller
+    STPhotosViewController *photosViewController =[[STPhotosViewController alloc] init];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:photosViewController];
+  
+    UINavigationBar *navBar = navController.navigationBar;
+    navBar.tintColor = [UIColor colorWithRed:242.0/255.0 green:122.0/255.0 blue:87.0/255.0 alpha:1.0];
+    navBar.barStyle = UIBarStyleBlackOpaque;
+  
+    self.window.rootViewController = navController;
+  
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

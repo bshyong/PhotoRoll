@@ -19,6 +19,8 @@
 		28515CEF19A44AAA001DE66C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28515CD719A44AAA001DE66C /* UIKit.framework */; };
 		28515CF719A44AAA001DE66C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28515CF519A44AAA001DE66C /* InfoPlist.strings */; };
 		28515CF919A44AAA001DE66C /* Photo_BombersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28515CF819A44AAA001DE66C /* Photo_BombersTests.m */; };
+		28515D0419A44AE5001DE66C /* STPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28515D0319A44AE5001DE66C /* STPhotosViewController.m */; };
+		28515D0719A45133001DE66C /* STPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28515D0619A45133001DE66C /* STPhotoCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		28515CF419A44AAA001DE66C /* Photo BombersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Photo BombersTests-Info.plist"; sourceTree = "<group>"; };
 		28515CF619A44AAA001DE66C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		28515CF819A44AAA001DE66C /* Photo_BombersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Photo_BombersTests.m; sourceTree = "<group>"; };
+		28515D0219A44AE5001DE66C /* STPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STPhotosViewController.h; path = ../STPhotosViewController.h; sourceTree = "<group>"; };
+		28515D0319A44AE5001DE66C /* STPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STPhotosViewController.m; path = ../STPhotosViewController.m; sourceTree = "<group>"; };
+		28515D0519A45133001DE66C /* STPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPhotoCell.h; sourceTree = "<group>"; };
+		28515D0619A45133001DE66C /* STPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPhotoCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,10 @@
 		28515CD919A44AAA001DE66C /* Photo Bombers */ = {
 			isa = PBXGroup;
 			children = (
+				28515D0219A44AE5001DE66C /* STPhotosViewController.h */,
+				28515D0319A44AE5001DE66C /* STPhotosViewController.m */,
+				28515D0519A45133001DE66C /* STPhotoCell.h */,
+				28515D0619A45133001DE66C /* STPhotoCell.m */,
 				28515CE219A44AAA001DE66C /* STAppDelegate.h */,
 				28515CE319A44AAA001DE66C /* STAppDelegate.m */,
 				28515CE519A44AAA001DE66C /* Images.xcassets */,
@@ -241,6 +251,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				28515CE019A44AAA001DE66C /* main.m in Sources */,
+				28515D0719A45133001DE66C /* STPhotoCell.m in Sources */,
+				28515D0419A44AE5001DE66C /* STPhotosViewController.m in Sources */,
 				28515CE419A44AAA001DE66C /* STAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
