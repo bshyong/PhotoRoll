@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28515CD419A44AAA001DE66C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28515CD319A44AAA001DE66C /* Foundation.framework */; };
+		28515CD619A44AAA001DE66C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28515CD519A44AAA001DE66C /* CoreGraphics.framework */; };
+		28515CD819A44AAA001DE66C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28515CD719A44AAA001DE66C /* UIKit.framework */; };
+		28515CDE19A44AAA001DE66C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28515CDC19A44AAA001DE66C /* InfoPlist.strings */; };
+		28515CE019A44AAA001DE66C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28515CDF19A44AAA001DE66C /* main.m */; };
+		28515CE419A44AAA001DE66C /* STAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28515CE319A44AAA001DE66C /* STAppDelegate.m */; };
+		28515CE619A44AAA001DE66C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28515CE519A44AAA001DE66C /* Images.xcassets */; };
+		28515CED19A44AAA001DE66C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28515CEC19A44AAA001DE66C /* XCTest.framework */; };
+		28515CEE19A44AAA001DE66C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28515CD319A44AAA001DE66C /* Foundation.framework */; };
+		28515CEF19A44AAA001DE66C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28515CD719A44AAA001DE66C /* UIKit.framework */; };
+		28515CF719A44AAA001DE66C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28515CF519A44AAA001DE66C /* InfoPlist.strings */; };
+		28515CF919A44AAA001DE66C /* Photo_BombersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28515CF819A44AAA001DE66C /* Photo_BombersTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28515CF019A44AAA001DE66C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28515CC819A44AAA001DE66C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28515CCF19A44AAA001DE66C;
+			remoteInfo = "Photo Bombers";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28515CD019A44AAA001DE66C /* Photo Bombers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photo Bombers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28515CD319A44AAA001DE66C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		28515CD519A44AAA001DE66C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28515CD719A44AAA001DE66C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28515CDB19A44AAA001DE66C /* Photo Bombers-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Photo Bombers-Info.plist"; sourceTree = "<group>"; };
+		28515CDD19A44AAA001DE66C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		28515CDF19A44AAA001DE66C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28515CE119A44AAA001DE66C /* Photo Bombers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Photo Bombers-Prefix.pch"; sourceTree = "<group>"; };
+		28515CE219A44AAA001DE66C /* STAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STAppDelegate.h; sourceTree = "<group>"; };
+		28515CE319A44AAA001DE66C /* STAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STAppDelegate.m; sourceTree = "<group>"; };
+		28515CE519A44AAA001DE66C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		28515CEB19A44AAA001DE66C /* Photo BombersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Photo BombersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28515CEC19A44AAA001DE66C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		28515CF419A44AAA001DE66C /* Photo BombersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Photo BombersTests-Info.plist"; sourceTree = "<group>"; };
+		28515CF619A44AAA001DE66C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		28515CF819A44AAA001DE66C /* Photo_BombersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Photo_BombersTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28515CCD19A44AAA001DE66C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28515CD619A44AAA001DE66C /* CoreGraphics.framework in Frameworks */,
+				28515CD819A44AAA001DE66C /* UIKit.framework in Frameworks */,
+				28515CD419A44AAA001DE66C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28515CE819A44AAA001DE66C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28515CED19A44AAA001DE66C /* XCTest.framework in Frameworks */,
+				28515CEF19A44AAA001DE66C /* UIKit.framework in Frameworks */,
+				28515CEE19A44AAA001DE66C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28515CC719A44AAA001DE66C = {
+			isa = PBXGroup;
+			children = (
+				28515CD919A44AAA001DE66C /* Photo Bombers */,
+				28515CF219A44AAA001DE66C /* Photo BombersTests */,
+				28515CD219A44AAA001DE66C /* Frameworks */,
+				28515CD119A44AAA001DE66C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28515CD119A44AAA001DE66C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28515CD019A44AAA001DE66C /* Photo Bombers.app */,
+				28515CEB19A44AAA001DE66C /* Photo BombersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28515CD219A44AAA001DE66C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28515CD319A44AAA001DE66C /* Foundation.framework */,
+				28515CD519A44AAA001DE66C /* CoreGraphics.framework */,
+				28515CD719A44AAA001DE66C /* UIKit.framework */,
+				28515CEC19A44AAA001DE66C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28515CD919A44AAA001DE66C /* Photo Bombers */ = {
+			isa = PBXGroup;
+			children = (
+				28515CE219A44AAA001DE66C /* STAppDelegate.h */,
+				28515CE319A44AAA001DE66C /* STAppDelegate.m */,
+				28515CE519A44AAA001DE66C /* Images.xcassets */,
+				28515CDA19A44AAA001DE66C /* Supporting Files */,
+			);
+			path = "Photo Bombers";
+			sourceTree = "<group>";
+		};
+		28515CDA19A44AAA001DE66C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28515CDB19A44AAA001DE66C /* Photo Bombers-Info.plist */,
+				28515CDC19A44AAA001DE66C /* InfoPlist.strings */,
+				28515CDF19A44AAA001DE66C /* main.m */,
+				28515CE119A44AAA001DE66C /* Photo Bombers-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28515CF219A44AAA001DE66C /* Photo BombersTests */ = {
+			isa = PBXGroup;
+			children = (
+				28515CF819A44AAA001DE66C /* Photo_BombersTests.m */,
+				28515CF319A44AAA001DE66C /* Supporting Files */,
+			);
+			path = "Photo BombersTests";
+			sourceTree = "<group>";
+		};
+		28515CF319A44AAA001DE66C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28515CF419A44AAA001DE66C /* Photo BombersTests-Info.plist */,
+				28515CF519A44AAA001DE66C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28515CCF19A44AAA001DE66C /* Photo Bombers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28515CFC19A44AAA001DE66C /* Build configuration list for PBXNativeTarget "Photo Bombers" */;
+			buildPhases = (
+				28515CCC19A44AAA001DE66C /* Sources */,
+				28515CCD19A44AAA001DE66C /* Frameworks */,
+				28515CCE19A44AAA001DE66C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Photo Bombers";
+			productName = "Photo Bombers";
+			productReference = 28515CD019A44AAA001DE66C /* Photo Bombers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28515CEA19A44AAA001DE66C /* Photo BombersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28515CFF19A44AAA001DE66C /* Build configuration list for PBXNativeTarget "Photo BombersTests" */;
+			buildPhases = (
+				28515CE719A44AAA001DE66C /* Sources */,
+				28515CE819A44AAA001DE66C /* Frameworks */,
+				28515CE919A44AAA001DE66C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28515CF119A44AAA001DE66C /* PBXTargetDependency */,
+			);
+			name = "Photo BombersTests";
+			productName = "Photo BombersTests";
+			productReference = 28515CEB19A44AAA001DE66C /* Photo BombersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28515CC819A44AAA001DE66C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ST;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ShyongTech;
+				TargetAttributes = {
+					28515CEA19A44AAA001DE66C = {
+						TestTargetID = 28515CCF19A44AAA001DE66C;
+					};
+				};
+			};
+			buildConfigurationList = 28515CCB19A44AAA001DE66C /* Build configuration list for PBXProject "Photo Bombers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 28515CC719A44AAA001DE66C;
+			productRefGroup = 28515CD119A44AAA001DE66C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28515CCF19A44AAA001DE66C /* Photo Bombers */,
+				28515CEA19A44AAA001DE66C /* Photo BombersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28515CCE19A44AAA001DE66C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28515CDE19A44AAA001DE66C /* InfoPlist.strings in Resources */,
+				28515CE619A44AAA001DE66C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28515CE919A44AAA001DE66C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28515CF719A44AAA001DE66C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28515CCC19A44AAA001DE66C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28515CE019A44AAA001DE66C /* main.m in Sources */,
+				28515CE419A44AAA001DE66C /* STAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28515CE719A44AAA001DE66C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28515CF919A44AAA001DE66C /* Photo_BombersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28515CF119A44AAA001DE66C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28515CCF19A44AAA001DE66C /* Photo Bombers */;
+			targetProxy = 28515CF019A44AAA001DE66C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28515CDC19A44AAA001DE66C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28515CDD19A44AAA001DE66C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		28515CF519A44AAA001DE66C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28515CF619A44AAA001DE66C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28515CFA19A44AAA001DE66C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		28515CFB19A44AAA001DE66C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28515CFD19A44AAA001DE66C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Photo Bombers/Photo Bombers-Prefix.pch";
+				INFOPLIST_FILE = "Photo Bombers/Photo Bombers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		28515CFE19A44AAA001DE66C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Photo Bombers/Photo Bombers-Prefix.pch";
+				INFOPLIST_FILE = "Photo Bombers/Photo Bombers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		28515D0019A44AAA001DE66C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Photo Bombers.app/Photo Bombers";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Photo Bombers/Photo Bombers-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Photo BombersTests/Photo BombersTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		28515D0119A44AAA001DE66C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Photo Bombers.app/Photo Bombers";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Photo Bombers/Photo Bombers-Prefix.pch";
+				INFOPLIST_FILE = "Photo BombersTests/Photo BombersTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28515CCB19A44AAA001DE66C /* Build configuration list for PBXProject "Photo Bombers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28515CFA19A44AAA001DE66C /* Debug */,
+				28515CFB19A44AAA001DE66C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28515CFC19A44AAA001DE66C /* Build configuration list for PBXNativeTarget "Photo Bombers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28515CFD19A44AAA001DE66C /* Debug */,
+				28515CFE19A44AAA001DE66C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		28515CFF19A44AAA001DE66C /* Build configuration list for PBXNativeTarget "Photo BombersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28515D0019A44AAA001DE66C /* Debug */,
+				28515D0119A44AAA001DE66C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28515CC819A44AAA001DE66C /* Project object */;
+}
