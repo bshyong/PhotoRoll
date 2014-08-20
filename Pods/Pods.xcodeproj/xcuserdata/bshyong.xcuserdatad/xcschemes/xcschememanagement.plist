@@ -19,6 +19,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-SAMCache.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-SimpleAuth.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,27 +37,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1655F7D1F6134C65B7C952FD</key>
+		<key>1FE407BD3A2D4DCAAC14ADCC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9B131FD295E4486FBA5D1645</key>
+		<key>552570B3801649BF95C1CF35</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D947221EA21A48019CF7DAC0</key>
+		<key>A8A4E73185E84265A3AD9E34</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E3E920D1AAA048A6AC1C3883</key>
+		<key>D311FC9C63334321A1672A7B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FF7EFEC886CC43B385215ED8</key>
+		<key>E7C2F091953A49FAB945E5F7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F9D24BED4948415092D4EE87</key>
 		<dict>
 			<key>primary</key>
 			<true/>
