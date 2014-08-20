@@ -8,6 +8,7 @@
 
 #import "STAppDelegate.h"
 #import "STPhotosViewController.h"
+#import <SimpleAuth/SimpleAuth.h>
 
 @implementation STAppDelegate
 
@@ -15,6 +16,11 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+  
+    SimpleAuth.configuration[@"instagram"] = @{
+                                               @"client_id" : @"72380f0224754797b459231ca176d817",
+                                               SimpleAuthRedirectURIKey : @"photobombers://auth/instagram"
+                                             };
   
     // nest photos view controller in navigation controller
     STPhotosViewController *photosViewController =[[STPhotosViewController alloc] init];
