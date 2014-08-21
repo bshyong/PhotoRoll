@@ -105,7 +105,7 @@
 }
 
 -(id<UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(UIViewController *)dismissed{
-  return [[STPresentDetailTransition alloc] init];
+  return [[STDismissDetailTransition alloc] init];
 }
 
 @end
