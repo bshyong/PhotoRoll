@@ -42,11 +42,13 @@
   self.accessToken = [userDefaults objectForKey:@"accessToken"];
   
   if (self.accessToken == nil) {
-    [SimpleAuth authorize:@"instagram" completion:^(NSDictionary *responseObject, NSError *error) {
+    [SimpleAuth authorize:@"instagram" options:@{@"scope": @[@"likes"]} completion:^(NSDictionary *responseObject, NSError *error) {
       // get access token from response
-      NSString *accessToken = responseObject[@"credentials"][@"token"];
-      [userDefaults setObject:accessToken forKey:@"accessToken"];
+      self.accessToken = responseObject[@"credentials"][@"token"];
+      [userDefaults setObject:self.accessToken forKey:@"accessToken"];
       [userDefaults synchronize];
+      // refresh app after sign in
+      [self refresh];
     }];
   } else {
     [self refresh];
@@ -57,7 +59,7 @@
   NSURLSession *session = [NSURLSession sharedSession];
   NSString *urlString = [[NSString alloc] initWithFormat:@"https://api.instagram.com/v1/tags/snow/media/recent?access_token=%@", self.accessToken];
   NSURL *url = [[NSURL alloc] initWithString:urlString];
-  NSLog(@"photos: %@", urlString);
+
   NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
   NSURLSessionDownloadTask *task = [session downloadTaskWithRequest:request completionHandler:^(NSURL *location, NSURLResponse *response, NSError *error) {
     NSData *data = [[NSData alloc] initWithContentsOfURL:location];
