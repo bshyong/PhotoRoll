@@ -10,8 +10,10 @@
 #import "STPhotoCell.h"
 #import <SimpleAuth/SimpleAuth.h>
 #import "STDetailViewController.h"
+#import "STPresentDetailTransition.h"
+#import "STDismissDetailTransition.h"
 
-@interface STPhotosViewController ()
+@interface STPhotosViewController () <UIViewControllerTransitioningDelegate>
 
 @property (nonatomic) NSString *accessToken;
 @property (nonatomic) NSArray *photos;
@@ -90,10 +92,20 @@
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
   NSDictionary *photo = self.photos[indexPath.row];
   STDetailViewController *viewController = [[STDetailViewController alloc] init];
+  viewController.modalPresentationStyle = UIModalPresentationCustom;
+  viewController.transitioningDelegate = self;
+  
   viewController.photo = photo;
   
   [self presentViewController:viewController animated:YES completion:nil];
 }
 
+-(id<UIViewControllerAnimatedTransitioning>)animationControllerForPresentedController:(UIViewController *)presented presentingController:(UIViewController *)presenting sourceController:(UIViewController *)source{
+  return [[STPresentDetailTransition alloc] init];
+}
+
+-(id<UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(UIViewController *)dismissed{
+  return [[STPresentDetailTransition alloc] init];
+}
 
 @end

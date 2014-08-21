@@ -19,7 +19,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = [UIColor colorWithWhite:0.0 alpha:0.7];
   
     self.imageView = [[UIImageView alloc] init];
     [self.view addSubview:self.imageView];
