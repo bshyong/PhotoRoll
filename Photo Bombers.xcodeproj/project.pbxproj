@@ -22,6 +22,7 @@
 		28515D0419A44AE5001DE66C /* STPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28515D0319A44AE5001DE66C /* STPhotosViewController.m */; };
 		28515D0719A45133001DE66C /* STPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28515D0619A45133001DE66C /* STPhotoCell.m */; };
 		28515D0D19A58D16001DE66C /* STPhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28515D0C19A58D16001DE66C /* STPhotoController.m */; };
+		28515D1019A5A7F7001DE66C /* STDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28515D0F19A5A7F7001DE66C /* STDetailViewController.m */; };
 		8E4E39EBE2744D3FA64CC0AF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1FD9915D07243E195776BFC /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,8 @@
 		28515D0819A45F9E001DE66C /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		28515D0B19A58D16001DE66C /* STPhotoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPhotoController.h; sourceTree = "<group>"; };
 		28515D0C19A58D16001DE66C /* STPhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPhotoController.m; sourceTree = "<group>"; };
+		28515D0E19A5A7F7001DE66C /* STDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STDetailViewController.h; sourceTree = "<group>"; };
+		28515D0F19A5A7F7001DE66C /* STDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STDetailViewController.m; sourceTree = "<group>"; };
 		870375733A1E4E4282B0082D /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		B1FD9915D07243E195776BFC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -130,6 +133,8 @@
 				28515D0619A45133001DE66C /* STPhotoCell.m */,
 				28515D0B19A58D16001DE66C /* STPhotoController.h */,
 				28515D0C19A58D16001DE66C /* STPhotoController.m */,
+				28515D0E19A5A7F7001DE66C /* STDetailViewController.h */,
+				28515D0F19A5A7F7001DE66C /* STDetailViewController.m */,
 				28515CE219A44AAA001DE66C /* STAppDelegate.h */,
 				28515CE319A44AAA001DE66C /* STAppDelegate.m */,
 				28515CE519A44AAA001DE66C /* Images.xcassets */,
@@ -300,6 +305,7 @@
 			files = (
 				28515CE019A44AAA001DE66C /* main.m in Sources */,
 				28515D0719A45133001DE66C /* STPhotoCell.m in Sources */,
+				28515D1019A5A7F7001DE66C /* STDetailViewController.m in Sources */,
 				28515D0419A44AE5001DE66C /* STPhotosViewController.m in Sources */,
 				28515CE419A44AAA001DE66C /* STAppDelegate.m in Sources */,
 				28515D0D19A58D16001DE66C /* STPhotoController.m in Sources */,

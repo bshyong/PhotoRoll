@@ -9,6 +9,7 @@
 #import "STPhotosViewController.h"
 #import "STPhotoCell.h"
 #import <SimpleAuth/SimpleAuth.h>
+#import "STDetailViewController.h"
 
 @interface STPhotosViewController ()
 
@@ -85,5 +86,14 @@
   
   return cell;
 }
+
+-(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
+  NSDictionary *photo = self.photos[indexPath.row];
+  STDetailViewController *viewController = [[STDetailViewController alloc] init];
+  viewController.photo = photo;
+  
+  [self presentViewController:viewController animated:YES completion:nil];
+}
+
 
 @end
